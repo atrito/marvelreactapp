@@ -1,9 +1,9 @@
 // Modules
-import axios from 'axios';
+import axios from "axios";
 // Components
-import List from '../components/home/List';
+import List from "../components/home/list";
 // Api
-import { api } from '../services/api';
+import { api } from "../services/api";
 // Home
 const Home = ({ characters }) => <List characters={characters} />;
 // ServerSideProps
